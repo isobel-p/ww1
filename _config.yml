@@ -1,0 +1,46 @@
+title: World War One Project
+author:
+  name: Isobel Pang
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  How far did life change during WW1 for the soldiers on the Western Front and civilians on the Home Front?
+
+# Build settings
+
+# If you clone the Minima repo and build locally, use this setting.
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme-specific settings
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - introduction.md
+  - recruitment.md
+  - trenches.md
+  - women.md
+  - total.md
+  - objectors.md
+  - evidence.md
+  - conclusion.md
+
+
+show_excerpts: true
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
